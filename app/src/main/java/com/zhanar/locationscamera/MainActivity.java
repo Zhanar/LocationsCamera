@@ -47,40 +47,67 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void getCapitalCities() {
-//        Location mountWashington = new Location("Washington");
-//        mountWashington.setLatitude(44.27179d);
-//        mountWashington.setLongitude(-71.3039d);
-//        mountWashington.setAltitude(1916.5d);
-//        CustomLocation mW = new CustomLocation();
-//        mW.location = mountWashington;
-//        mW.name = "Mount Washington";
-//        capitalCitiesLocs.add(mW);
+        Location mountWashington = new Location("Washington");
+        mountWashington.setLatitude(44.27179d);
+        mountWashington.setLongitude(-71.3039d);
+        mountWashington.setAltitude(1916.5d);
+        CustomLocation mW = new CustomLocation();
+        mW.location = mountWashington;
+        mW.name = "Mount Washington";
+        capitalCitiesLocs.add(mW);
 
-        Location astanaCity = new Location("Astana");
-        astanaCity.setLatitude(51.1811111d);
-        astanaCity.setLongitude(71.4277778d);
-        astanaCity.setAltitude(1152.795d);
-        CustomLocation ac = new CustomLocation();
-        ac.location = astanaCity;
-        ac.name = "Astana";
-        capitalCitiesLocs.add(ac);
-
-//        Location talgar = new Location("Talgar");
-//        talgar.setLatitude(43.30358543393359);
-//        talgar.setLongitude(77.21592664718628);
-//        talgar.setAltitude(3277.378d);
-//        CustomLocation t = new CustomLocation();
-//        t.location = talgar;
-//        t.name = "Talgar";
-//        capitalCitiesLocs.add(t);
+        Location astana = new Location("Astana");
+        astana.setLatitude(51.1811111d);
+        astana.setLongitude(71.4277778d);
+        astana.setAltitude(1152.795d);
+        CustomLocation customLocationAstana = new CustomLocation();
+        customLocationAstana.location = astana;
+        customLocationAstana.name = "Astana";
+        capitalCitiesLocs.add(customLocationAstana);
 
         Location almaty = new Location("Almaty");
         almaty.setLatitude(43.30358543393359);
         almaty.setLongitude(77.21592664718628);
         almaty.setAltitude(3277.378d);
-        CustomLocation a = new CustomLocation();
-        a.location = almaty;
-        a.name = "Almaty";
-        capitalCitiesLocs.add(a);
+        CustomLocation customLocationAlmaty = new CustomLocation();
+        customLocationAlmaty.location = almaty;
+        customLocationAlmaty.name = "Almaty";
+        capitalCitiesLocs.add(customLocationAlmaty);
+
+        Location madrid = new Location("Madrid");
+        madrid.setLatitude(40.4165000);
+        madrid.setLongitude(-3.7025600);
+        madrid.setAltitude(582);
+        CustomLocation customLocationMadrid = new CustomLocation();
+        customLocationMadrid.location = madrid;
+        customLocationMadrid.name = "Madrid";
+        capitalCitiesLocs.add(customLocationMadrid);
+
+        Location losAngeles = new Location("Los Angeles");
+        losAngeles.setLatitude(34.052235);
+        losAngeles.setLongitude(-118.243683);
+        losAngeles.setAltitude(115);
+        CustomLocation customLocationLosAngeles = new CustomLocation();
+        customLocationLosAngeles.location = losAngeles;
+        customLocationLosAngeles.name = "Los Angeles";
+        capitalCitiesLocs.add(customLocationLosAngeles);
+
+        Location london = new Location("London");
+        london.setLatitude(51.500083);
+        london.setLongitude(-0.126182);
+        london.setAltitude(245);
+        CustomLocation customLocationLondon = new CustomLocation();
+        customLocationLondon.location = london;
+        customLocationLondon.name = "London";
+        capitalCitiesLocs.add(customLocationLondon);
+
+        Location dublin = new Location("Dublin");
+        dublin.setLatitude(53.350140);
+        dublin.setLongitude(-6.266155);
+        dublin.setAltitude(85);
+        CustomLocation customLocationDublin = new CustomLocation();
+        customLocationDublin.location = london;
+        customLocationDublin.name = "Dublin";
+        capitalCitiesLocs.add(customLocationDublin);
     }
 }
